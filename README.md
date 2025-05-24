@@ -1,5 +1,6 @@
-# Ex04 Places Around Me
 
+# Ex04 Places Around Me
+# Date:28/04/2025
 # AIM
 To develop a website to display details about the places around my house.
 
@@ -23,152 +24,237 @@ Write HTML programs for all the regions identified.
 Execute the programs and publish them.
 
 # CODE
+map.html:
 ```
-map.html
-
 <html>
     <head>
-        <title>My City</title>
+        <title>MY CITY</title>
     </head>
     <body>
         <h1 align="center">
-            <font color="red"><b>Salem</b></font>
+            <font color="blue"><b>vellore</b></font>
         </h1>
         <h3 align="center">
-            <font color="blue"><b>Srimathi S</b></font>
+            <font color="blue"><b>deepika</b></font>
         </h3>
         <center>
-            <img src="Map.png" usemap="#MyCity" height="610" width="1450">
-            <map name="#MyCity">
-                <area shape="rect" coords="775,353,1044,490" href="home.html" title="My Home Town">
-                <area shape="circle" coords="1445,94,1688,251" href="tumbal.html" title="Tumbal">
-                <area shape="circle" coords="1121,502,1364,659" href="tirumanur.html" title="tirumanur">
-                <area shape="circle" coords="396,18,639,175" href="mecheri.html" title="mecheri">
-                <area shape="rect" coords="35,452,278,609" href="hill.html" title="Hill Station">
+            <img src="map.png" usemap="mycity" height="610" width="1450">
+            <map name="my city">
+                <area shape="rect" coords="413,419,358,415" alt="Ractangle" href="star temple.html">
+                <area shape="rect" coords="1037,543,1064,517" title="Ractangle" href="temple.html">
+                <area shape="rect" coords="668,599,650,613" alt="Ractangle" href="fort.html">
+                <area shape="circle" coords="544,208,18" alt="Circle" href="university.html">
+                <area shape="circle" coords="1097,435,16" alt="Circle" href="hospital.html">
             </map>
         </center>
     </body>
-</html>
-
-home.html
-
+</html>`
+star temple.html:
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Home Town</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GOLDEN TEMPLE</title>
+  <style>
+      h1 {
+          color: red;
+          text-align: center;
+          font-size: 48px;
+      }
+      p {
+          padding-top: 2%;
+          font-size: 28px;
+          padding-right: 5%;
+          padding-left: 2%;
+          color: blue;
+      }
+      body {
+          background-color: yellow;
+      }
+  </style>
 </head>
-<body bgcolor="cyan">
-  <h1 align="center">
-    <font color="red"><b>Salem</b></font>
-  </h1>
-  <h3 align="center">
-    <font color="blue"><b>Salem - My Home Town</b></font>
-  </h3>
-  <hr size="3" color="red">
-  <p align="justify">
-    <font face="Georgia" size="5">
-        Salem is a vibrant city in the Indian state of Tamil Nadu, nestled in the Salem district at the foothills of the Shevaroy and Kolli Hills. Known as the “Steel City” for its long history of steel production and as the “Mango City” for its celebrated, sweet mango crops, Salem seamlessly blends industry with agriculture.
-    </font>
-  </p>
+<body>
+  <h1>GOLDEN TEMPLE</h1>
+  <hr color="black">
+  <p><b>
+    The temple with its gold (1500 kg) covering, has intricate 
+    work done by artisans specialising in temple art using gold.
+    Every single detail was manually created, including converting 
+    the gold bars into gold foils and then mounting the foils on copper.
+      </b></p>
+  <br><br>
+  <hr color="black">
 </body>
 </html>
-
-hill.html
-
+temple.html:
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Home Town</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VELLORE FORT TEMPLE</title>
+  <style>
+      h1 {
+          color: rgb(0, 149, 255);
+          text-align: center;
+          font-size: 48px;
+      }
+      p {
+          padding-top: 2%;
+          font-size: 28px;
+          padding-right: 5%;
+          padding-left: 2%;
+          color: blue;
+      }
+      body {
+          background-color: rgb(202, 58, 212);
+      }
+  </style>
 </head>
-<body bgcolor="cyan">
-  <h1 align="center">
-    <font color="red"><b>Salem</b></font>
-  </h1>
-  <h3 align="center">
-    <font color="blue"><b>HILL-Hill station</b></font>
-  </h3>
-  <hr size="3" color="red">
-  <p align="justify">
-    <font face="Georgia" size="5">
-        Perched about 1,515 meters above sea level in the Shevaroy Hills, Yercaud is Salem’s quintessential hill station—often called the “Jewel of the South.” Misty mornings here reveal emerald-green coffee and spice plantations that spill down rolling slopes, while winding roads climb through dense shola forests, offering vantage points such as Lady’s Seat and Pagoda Point with sweeping views over the plains below.
-    </font>
-  </p>
+<body>
+  <h1>FORT TEMPLE</h1>
+  <hr color="black">
+  <p><b>
+    The fort houses the Jalakanteswarar Hindu temple, the Christian St. 
+    John's Church and a Muslim mosque, of which the Jalakanteswarar Temple is famous for its magnificent carvings.
+    The first significant military rebellion against British rule, the Vellore Mutiny, erupted at this fort in 1806.
+      </b></p>
+  <br><br>
+  <hr color="black">
 </body>
 </html>
-
-mecheri.html
-
+fort.html:
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Home Town</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VELLORE FORT</title>
+  <style>
+      h1 {
+          color: red;
+          text-align: center;
+          font-size: 48px;
+      }
+      p {
+          padding-top: 2%;
+          font-size: 28px;
+          padding-right: 5%;
+          padding-left: 2%;
+          color: blue;
+      }
+      body {
+          background-color: yellow;
+      }
+  </style>
 </head>
-<body bgcolor="cyan">
-  <h1 align="center">
-    <font color="red"><b>Salem</b></font>
-  </h1>
-  <h3 align="center">
-    <font color="blue"><b>Mecheri - The market</b></font>
-  </h3>
-  <hr size="3" color="red">
-  <p align="justify">
-    <font face="Georgia" size="5">Mecheri is a bustling town located in the northwestern part of Salem district, known primarily for its thriving textile and agriculture industries. Often dubbed the “Mecheri Sheep City,” it’s famous for the hardy Mecheri breed of sheep, whose wool and meat contribute significantly to the local economy.</font>
-  </p>
+<body>
+  <h1>VELLORE FORT</h1>
+  <hr color="black">
+  <p><b>
+    Vellore Fort is a large 16th-century fort in the center of Vellore city, in the state of Tamil Nadu, India. 
+    It was built by Vijayanagara kings. 
+    The fort was at one time the headquarters of the Aravidu Dynasty of the Vijayanagara Empire.
+    The fort has grand ramparts and wide moat.
+      </b></p>
+  <br><br>
+  <hr color="black">
 </body>
 </html>
-
-tirumanur.html
-
+university.html:
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Home Town</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIT UNIVERSITY</title>
+  <style>
+      h1 {
+          color: rgb(225, 255, 0);
+          text-align: center;
+          font-size: 48px;
+      }
+      p {
+          padding-top: 2%;
+          font-size: 28px;
+          padding-right: 5%;
+          padding-left: 2%;
+          color: rgb(0, 204, 255);
+      }
+      body {
+          background-color: rgb(0, 162, 255);
+      }
+  </style>
 </head>
-<body bgcolor="cyan">
-  <h1 align="center">
-    <font color="red"><b>Salem</b></font>
-  </h1>
-  <h3 align="center">
-    <font color="blue"><b>Tirumanur - The Temple city</b></font>
-  </h3>
-  <hr size="3" color="red">
-  <p align="justify">
-    <font face="Georgia" size="5">Tirumanur is a serene village nestled in the verdant foothills of the Eastern Ghats within Salem district, just a short drive southeast of Salem city. Framed by lush agricultural fields, the village is renowned for its jackfruit orchards and paddy cultivation, which sustain the local economy and lend the landscape a patchwork of vibrant green.</font>
-  </p>
+<body>
+  <h1>VIT UNIVERSITY</h1>
+  <hr color="black">
+  <p><b>
+    Vellore Institute of Technology (VIT), previously Vellore Engineering College, is a deemed university in Vellore, Tamil Nadu.
+     It has a history of innovation in higher education, expanding from 180 students to 67,000+.
+      VIT emphasizes quality in teaching, research, and innovation, with a focus on student-centric learning.
+      It has campuses in Vellore and Chennai, along with sister universities in other locations.
+       VIT also has an international campus in Mauritius. 
+    Vellore Institute of Technology - Wikipedia
+    Vellore Institute of Technology or VIT is a private deemed university in Vellore, Tamil Nadu, India. 
+    VIT University
+    
+      </b></p>
+  <br><br>
+  <hr color="black">
 </body>
 </html>
-
-tumbal.html
-
+hospital.html:
 <!DOCTYPE html>
-<html>
-<head>
-  <title>My Home Town</title>
-</head>
-<body bgcolor="cyan">
-  <h1 align="center">
-    <font color="red"><b>Salem</b></font>
-  </h1>
-  <h3 align="center">
-    <font color="blue"><b>Tumbal - Busy city</b></font>
-  </h3>
-  <hr size="3" color="red">
-  <p align="justify">
-    <font face="Georgia" size="5">Tumbal is a quaint rural hamlet situated in the southwestern reaches of Salem district, tucked into the gentle undulations of the Eastern Ghats’ foothills. Predominantly an agrarian settlement, its red-soil fields yield turmeric, millets, and groundnuts, while small groves of tamarind and guava offer seasonal fruits to local markets </font>
-  </p>
-</body>
-</html>
-
-
-```
-
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CHRISTIAN MEDICAL COLLEGE</title>
+   <style>
+       h1 {
+           color: red;
+           text-align: center;
+           font-size: 48px;
+       }
+       p {
+           padding-top: 2%;
+           font-size: 28px;
+           padding-right: 5%;
+           padding-left: 2%;
+           color: blue;
+       }
+       body {
+           background-color: yellow;
+       }
+   </style>
+ </head>
+ <body>
+   <h1></h1>
+   <hr color="black">
+   <p><b>
+    CMC Vellore, a private Christian minority-run medical college and hospital, is located in Vellore, Tamil Nadu, India.
+    Founded in 1900 by Dr. Ida S. Scudder, it's known for pioneering medical advancements and a commitment to healthcare and education. 
+    The institution has achieved numerous firsts in Indian medicine, including the first College of Nursing,
+    reconstructive leprosy surgery, and successful open heart surgery.
+ </b></p>
+ <br><br>
+ <hr color="black">
+ </body>
+ </html>
+ ```
 # OUTPUT
-![alt text](1.png)
-![alt text](2.png)
-![alt text](3.png)
-![alt text](4.png)
-![alt text](5.png)
-![alt text](6.png)
+![university png](https://github.com/user-attachments/assets/3d2c2db4-34b6-409e-bfe5-ec15b889ce01)
+![fort temple png](https://github.com/user-attachments/assets/33d47ddf-c2eb-4f97-95ac-c095cdde91dc)
+![map](https://github.com/user-attachments/assets/12cee6f7-fe4a-4480-ab7f-7e9106d51527)
+![fort png](https://github.com/user-attachments/assets/c5dc4e5c-f977-471f-9f64-b17e5f6a5660)
+![golden temple png](https://github.com/user-attachments/assets/16729113-1c69-40be-8c76-a91c35e2e5a4)
+![hospital png](https://github.com/user-attachments/assets/2ca7698d-7db3-42c5-9235-35777d952ecc)
+
+
+
+
 
 
 # RESULT
